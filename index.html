@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crash - Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background: url('media/banner.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CRASH :3</h1>
+    <p>A little insight into myself</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div id="home" class="hero">
+    <h1>Welcome to my World</h1>
+    <p>Discover my adventures, creative pursuits, and more.</p>
+</div>
+
+<div id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+        Hi, I'm Crash! I love being adventurous and traveling. You'll often find me exploring urban landscapes 
+        (urbex), climbing and seeking out new experiences. I share my journey on social media, 
+        where I post pictures of myself in my fursuit, as well as snapshots of my adventures with friends.
+    </p>
+</div>
+
+<div id="gallery" class="container">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="media/flex.jpg" alt="Fursuit Adventure - Flex">
+        <img src="media/headshot.jpg" alt="Fursuit Adventure - Headshot">
+        <img src="media/overhead.jpg" alt="Fursuit Adventure - Overhead">
+        <!-- Add more images as needed -->
+    </div>
+</div>
+
+<div id="contact" class="container">
+    <h2>Contact Me</h2>
+    <p>You can connect with me on Twitter: <a href="https://twitter.com/crashdayeen" target="_blank">@crashdayeen</a></p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Crash. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
