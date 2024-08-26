@@ -52,16 +52,18 @@
         .hero p {
             font-size: 20px;
         }
-        .gallery img {
-            width: 100%;
-            max-width: 300px;
-            margin: 10px;
-            border-radius: 8px;
-        }
         .gallery {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: 300px; /* Set a fixed height */
+            object-fit: cover; /* This will maintain the aspect ratio and crop the overflow */
+            margin: 10px;
+            border-radius: 8px;
         }
         footer {
             text-align: center;
@@ -73,6 +75,7 @@
     </style>
 </head>
 <body>
+
 
 <header>
     <h1>CRASH :3</h1>
